@@ -1,0 +1,17 @@
+{
+  "name": "cypress-base",
+  "version": "1.0.1-rc.0",
+  "private": true,
+  "scripts": {
+    "cypress": "cypress open",
+    "cypress:run": "node init.js && cypress run"
+  },
+  "dependencies": {
+    "cypress-file-upload": "^4.0.7",
+    "cypress-wait-until": "^1.7.1",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "cypress": "^5.4.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "baseUrl": "http://192.168.43.180:8080/bdss/u/",
+    "video": false,
+    "screenshot": false,
+    "experiment":{
+      "experimentNetworkStubbing": true
+    },
+    "experimentalNetworkStubbing":true,
+    "testFiles": [
+      "test/registerAccount-spec.js"
+    ]
+  }
+  
